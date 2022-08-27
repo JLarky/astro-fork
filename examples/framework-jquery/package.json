@@ -12,7 +12,9 @@
   "devDependencies": {
     "@astrojs/jquery": "^0.0.1",
     "@types/jquery": "^3.5.14",
+    "@types/jqueryui": "^1.12.16",
     "jquery": "^3.6.1",
+    "jquery-ui": "^1.13.2",
     "astro": "^1.1.1"
   },
   "dependencies": {}

@@ -136,13 +136,17 @@ importers:
     specifiers:
       '@astrojs/jquery': ^0.0.1
       '@types/jquery': ^3.5.14
+      '@types/jqueryui': ^1.12.16
       astro: ^1.1.1
       jquery: ^3.6.1
+      jquery-ui: ^1.13.2
     devDependencies:
       '@astrojs/jquery': link:../../packages/integrations/jquery
       '@types/jquery': 3.5.14
+      '@types/jqueryui': 1.12.16
       astro: link:../../packages/astro
       jquery: 3.6.1
+      jquery-ui: 1.13.2
 
   examples/framework-lit:
     specifiers:
@@ -8721,6 +8725,12 @@ packages:
       '@types/sizzle': 2.3.3
     dev: true
 
+  /@types/jqueryui/1.12.16:
+    resolution: {integrity: sha512-6huAQDpNlso9ayaUT9amBOA3kj02OCeUWs+UvDmbaJmwkHSg/HLsQOoap/D5uveN9ePwl72N45Bl+Frp5xyG1Q==}
+    dependencies:
+      '@types/jquery': 3.5.14
+    dev: true
+
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
@@ -12532,6 +12542,12 @@ packages:
   /jiti/1.14.0:
     resolution: {integrity: sha512-4IwstlaKQc9vCTC+qUXLM1hajy2ImiL9KnLvVYiaHOtS/v3wRjhLlGl121AmgDgx/O43uKmxownJghS5XMya2A==}
     hasBin: true
+    dev: true
+
+  /jquery-ui/1.13.2:
+    resolution: {integrity: sha512-wBZPnqWs5GaYJmo1Jj0k/mrSkzdQzKDwhXNtHKcBdAcKVxMM3KNYFq+iJ2i1rwiG53Z8M4mTn3Qxrm17uH1D4Q==}
+    dependencies:
+      jquery: 3.6.1
     dev: true
 
   /jquery/3.6.1:
