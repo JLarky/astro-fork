@@ -1,0 +1,23 @@
+---
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+
+export interface Props {
+	title?: string;
+}
+
+import JQuery from './JQuery.html';
+
+const { title } = Astro.props;
+---
+
+<JQuery />
+<div id="dialog" title={title}>
+	<slot />
+</div>
+
+<script>
+	$(function () {
+		$('#dialog').dialog();
+	});
+</script>
