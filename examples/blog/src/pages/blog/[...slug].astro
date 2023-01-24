@@ -15,10 +15,8 @@ const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<BlogPost {...post.data}>
-	<h1>{post.data.title}</h1>
-	<Content />
-</BlogPost>
+<Content />
+
 <style>
 	/* you can check that css is not working if you don't see yellow */
 	:global(html) :global(body) {
