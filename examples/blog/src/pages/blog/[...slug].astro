@@ -19,3 +19,9 @@ const { Content } = await post.render();
 	<h1>{post.data.title}</h1>
 	<Content />
 </BlogPost>
+<style>
+	/* you can check that css is not working if you don't see yellow */
+	:global(html) :global(body) {
+		background-color: #f8f822;
+	}
+</style>
